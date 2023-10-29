@@ -1,0 +1,49 @@
+[
+    {
+    "name": "A",
+    "directions": [
+        {"direction": "E", "location": "B"},
+        {"direction": "W", "location": "C"}
+    ],
+    "start": true,
+    "end": false
+    },
+    {
+        "name": "B",
+        "directions": [
+            {"direction": "N", "location": "D"},
+            {"direction": "E", "location": "E"},
+            {"direction": "W", "location": "A"}
+        ],
+        "start": false,
+        "end": false
+    },
+    {
+        "name": "C",
+        "directions": [
+            {"direction": "E", "location": "A"}
+        ],
+        "start": false,
+        "end": false
+    },
+    {
+        "name": "D",
+        "directions": [
+            {"direction": "S", "location": "B"}
+        ],
+        "start": false,
+        "end": false
+    },
+
+    {
+        "name": "E",
+        "directions": [
+            {"direction": "W", "location": "B"}
+        ],
+        "start": false,
+        "end": true
+    }
+]
+   //            D
+   //            |
+   //        C-A-B-E
